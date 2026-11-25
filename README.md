@@ -6,10 +6,13 @@
 
 ## 打包命令示例
 
-> 在Windows终端打包，打包结果放在pack子文件夹
+> 在Windows Powershell终端打包，打包结果放在pack子文件夹
 
 ``` bash
-python -m PyInstaller --noconfirm --clean --onefile --windowed `  --name "十六进制转换器" `  --distpath pack --workpath "pack\build" --specpath pack `  "src\main.py"
+python -m PyInstaller --noconfirm --clean --onefile --windowed `
+  --name "十六进制转换器" `
+  --distpath pack --workpath "pack\build" --specpath pack `
+  "src\main.py"
 ```
 
 ## notepad++ 运行python脚本
